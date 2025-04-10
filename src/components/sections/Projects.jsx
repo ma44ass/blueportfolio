@@ -8,13 +8,7 @@ const projectsList = [
         tech: ["Tailwind CSS", "React", "Node.js", "Appwrite"],
         link: "https://ma44ass.github.io/moviesweb-app/",
     },
-    {
-        title: "Movie Web App",
-        description:
-            "A small web app where you can find the latest movies, with enhanced search. I used The Movie DB API to fetch movies data and Appwrite for trending based on search count.",
-        tech: ["Tailwind CSS", "React", "Node.js", "Appwrite"],
-        link: "https://ma44ass.github.io/moviesweb-app/",
-    },
+
 
 ]
 
