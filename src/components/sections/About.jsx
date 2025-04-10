@@ -29,17 +29,17 @@ export const About = () => {
         {
             name: "Meta Back-End Developer by Meta on Coursera (2025)",
             description:"Focused on databases, API creation, server-side technologies, and security practices to create secure, efficient applications.",
-            link: "#",
+            link: "https://coursera.org/share/3b17164a9433a0b23ce6b00300488447",
         },
         {
             name: "Meta Front-End Developer by Meta on Coursera (2024)",
             description:"Covers the fundamentals of web design and development, focusing on creating engaging and accessible interfaces with modern front-end technologies.",
-            link: "#",
+            link: "https://coursera.org/share/883e2b4076c0bebacbf246948f0c81c0",
         },
         {
             name: "AI Career Essentials by Alx (2024)",
             description:"Foundational concepts in artificial intelligence, covering machine learning, data analysis, and AI applications to build a strong understanding of AI technologies.",
-            link: "#",
+            link: "https://intranet.alxwe.com/certificates/CcXMzNJS3R",
         },
     ];
 
@@ -106,7 +106,11 @@ export const About = () => {
                                 <p className="text-sm text-gray-300 mb-4">{cert.description}</p>
                                 <a
                                     className="text-sm text-cyan-300 hover:text-cyan-400 transition-colors"
-                                    href={cert.link}>View Certificate →</a>
+                                    href={cert.link}
+                                    target='_blank'
+                                    referrerPolicy='no_referrer'>
+                                        View Certificate →
+                                </a>
 
                             </span>
                             )
