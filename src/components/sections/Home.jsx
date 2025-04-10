@@ -1,4 +1,6 @@
 import {RevealOnScroll} from '../RevealOnScroll';
+import myAvatar from '../../assets/myAvatar.jpg';
+
 
 export const Home = () => {
     return (
@@ -7,11 +9,20 @@ export const Home = () => {
         className="min-h-screen flex items-center justify-center relative"
         >
             <RevealOnScroll>
-                <div className="text-center z-10 px-4">
+                <div className=" justify-center mt-10">
+                    <div className="text-center z-10 px-4">
+                    <img
+                        src={myAvatar}
+                        className ="rounded-full  w-55 h-55 object-cover mt-15 mx-auto border-4 border-white shadow-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-pink-500/40"
+                        alt ="my avatar"/>
+
                     <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-pink-700 bg-clip-text text-transparent leading-r"> Hi, I am Assma </h1>
+                    
                     <p className=" text-gray-400 text-lg mb-8 max-w-lg mx-auto">
                         I am a full-stack developer who loves crafting clean, scalable web applications. My goal is to build solutions that offer both exceptional performance and a delightful user experience.
                     </p>
+                    </div>
+                
                     <div className="flex justify-center space-x-4">
                         <a
                         href="#projects"
