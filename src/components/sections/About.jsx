@@ -26,7 +26,7 @@ export const About = () => {
     const certificates = [
         {
             name: "Google UX Design by Google on Coursera (2025)",
-            link: "#https://coursera.org/share/411e05fffcb07d6020108603086e70d6",
+            link: "https://coursera.org/share/411e05fffcb07d6020108603086e70d6",
         },
         {
             name: "Meta Back-End Developer by Meta on Coursera (2025)",
