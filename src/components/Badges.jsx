@@ -26,6 +26,12 @@ const badges = [
     badgeLink: 'https://www.credly.com/badges/8060d2d8-369c-444d-b58f-8c54474abb31/public_url',
     skills: ['Data Analysis', 'Data Visualization', 'SQL', 'Excel', 'Data Cleaning', 'Problem Solving'],
   },
+  {
+    name: 'Google UX Design Professional Certificate',
+    badgeUrl: 'https://images.credly.com/size/680x680/images/78d71457-7637-4b02-8c0d-739814070bce/GCC_badge_UX_1000x1000.png',
+    badgeLink: 'https://www.credly.com/badges/754e5d1a-b8f3-49f1-b548-b8bb6111dde6/public_url',
+    skills: ['Wireframing', 'Prototyping', 'User Experience Reasearch', 'User Experience Design','Conduncting Usability Studies', 'Figma']
+  },
 ];
 
 const Badges = () => {
@@ -79,7 +85,7 @@ const Badges = () => {
               <h4 className="text-md font-semibold text-gray-300">Skills Gained:</h4>
               <ul className="list-none p-5 mt-2 space-y-1">
                 {badges[currentIndex].skills.map((skill, index) => (
-                  <li 
+                  <li
                   key={index}
                   className="text-gray-400 text-sm sm:text-base">{skill}</li>
                 ))}
