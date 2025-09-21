@@ -6,7 +6,14 @@ const projectsList = [
         description:
             "A small web app where you can find the latest movies, with enhanced search. Used The Movie DB API to fetch movies data and Appwrite for backend server",
         tech: ["Tailwind CSS", "React", "Node.js", "Appwrite"],
-        link: "https://ma44ass.github.io/moviesweb-app/",
+        link: "https://ma44ass.github.io/moviesweb-app",
+    },
+    {
+        title: "Vendor-digimall",
+        description:
+            "A multi-vendor e-commerce app where creators have their own storefronts, sell digital products, and get paid through Stripe Connect, rich with features like subdomains, product reviews, personal libraries, file delivery, and automatic platform fees, also an admin dashboard with role-based access control.",
+        tech: ["Tailwind CSS","ShadcnUI","Nextjs","Payload CMS","Stripe", "MongoDb"],
+        link: "https://vendor-digimall.vercel.app",
     },
 
 
